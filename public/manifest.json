@@ -1,0 +1,22 @@
+{
+  "short_name": "Netflix",
+  "name": "Netflix website",
+  "icons": [
+    {
+      "src": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico",
+      "sizes": "64x64 32x32 24x24 16x16"
+    },
+    {
+      "src": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico",
+      "type": "image/png"
+    },
+    {
+      "src": "https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

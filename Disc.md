@@ -1,0 +1,1 @@
+This is a clone Demo website of Netflix. In this the technology used React, Node.JS and TMDB APIs. The dependenices of React, Axios and Youtube is used in this project to make more efficent. fontawsome is used for icon etc.
