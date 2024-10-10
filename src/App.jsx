@@ -6,7 +6,7 @@ import RowPost from "./components/RowPost/RowPost";
 import { baseUrl, API_KEY } from "./constants/constants";
 
 function App() {
-  console.log(process.env.TDMB_API_KEY)
+  console.log(process.env.REACT_APP_TMDB_API_KEY)
   const items = [
     {
       title: "NETFLIX ORGINALS",
