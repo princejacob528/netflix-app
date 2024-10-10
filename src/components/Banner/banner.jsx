@@ -56,7 +56,6 @@ function Banner() {
         <div className="banner-btns">
           <button className="btn"><i className="fas fa-soild fa-play" />   Play</button>
           <button className="btn"><i className="fas fa-soild fa-bars" />   My List</button>
-          {console.log(movie ? movie : "Not id")}
         </div>
         <p className="description">{movie ? movie.overview : ""}</p>
       </div>

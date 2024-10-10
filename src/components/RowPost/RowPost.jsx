@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./RowPost.css";
 import axios from "../../axios";
-import { API_KEY, imageUrl } from "../../constants/constants";
+import { imageUrl } from "../../constants/constants";
 
 function RowPost({ title, link }) {
 
@@ -13,14 +13,12 @@ function RowPost({ title, link }) {
   useEffect(() => {
     if (posterRef.current) {
       posterRef.current.addEventListener('wheel', handleWheel);
-      console.log("added");
       
     }
     // Clean up the event listener when the component is unmounted
     return () => {
       if (posterRef.current) {
         posterRef.current.removeEventListener('wheel', handleWheel);
-        console.log("Not added");
       }
     };
   }, []);
