@@ -6,8 +6,7 @@ import RowPost from "./components/RowPost/RowPost";
 import { baseUrl, API_KEY } from "./constants/constants";
 
 function App() {
-  console.log(process.env.REACT_APP_TMDB_API_KEY)
-  const items = [
+    const items = [
     {
       title: "NETFLIX ORGINALS",
       link: `${baseUrl}/discover/tv?api_key=${API_KEY}&with_networks=213`,
